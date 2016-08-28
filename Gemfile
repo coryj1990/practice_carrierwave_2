@@ -46,5 +46,5 @@ group :development do
 end
 
 gem 'carrierwave'
-gem 'fog-aws'
+gem 'fog'
 gem 'pry'
