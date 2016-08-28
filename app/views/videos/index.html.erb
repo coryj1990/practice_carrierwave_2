@@ -19,7 +19,7 @@
   <tbody>
     <% @videos.each do |video| %>
       <tr>
-        <td><%= video.video_file %></td>
+        <td><%= video_tag(video.video_file) %></td>
         <td><%= video.name %></td>
         <td><%= video.SSW %></td>
         <td><%= video.user_id %></td>
