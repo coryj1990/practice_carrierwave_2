@@ -48,5 +48,6 @@ gem 'rails_12factor', group: :production
 gem 'aws-sdk'
 gem 'carrierwave'
 gem 'fog'
+gem 'fog-aws'
 gem 'pry'
 gem 'puma'
