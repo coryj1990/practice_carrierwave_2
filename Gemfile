@@ -44,10 +44,9 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-gem 'rails_12factor', group: :production
+gem 'rails_12factor'
 gem 'aws-sdk'
 gem 'carrierwave'
 gem 'fog'
-gem 'fog-aws'
 gem 'pry'
 gem 'puma'
